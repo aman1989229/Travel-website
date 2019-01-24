@@ -1,0 +1,220 @@
+#jumbo
+{
+	
+	padding-left: 60px;
+	background-repeat: no-repeat;
+	 background size: cover;
+	 background: rgba(0,0,0,0.0001);
+
+}
+.jumbotron-special
+{
+	background-color: #FDFDFD;
+}
+.huff
+{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+#padding{
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+}
+
+
+#button {
+    background: #E5E7E9;
+        border: #070707;
+    color:#070707;
+    padding: 20px;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 200%;
+    box-shadow: 1px 1px #1C2833 ,2px 2px #1C2833;
+}
+#button:hover
+ {
+    background-color: #24EEC6 ;
+    color: white;
+}
+#well1
+{
+	background-image: url(images/back.jpg);
+}
+.btn-1
+ {
+    background-color: white;
+    color: black;
+    border: 2px solid #EE4F24;
+    cursor: pointer;
+}
+
+.btn-1:hover 
+{
+	background: rgba(0,0,0,0.0001);
+}
+.btn-2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #283747;
+    cursor: pointer;
+}
+
+.btn-2:hover 
+{  
+ background: rgba(0,0,0,0.0001);
+}
+.btn-3 
+{
+    background-color: white;
+    color: black;
+    border: 2px solid #CA6F1E;
+    cursor: pointer;
+}
+
+.btn-3:hover 
+{
+	background: rgba(0,0,0,0.0001);
+}
+.btn-4:hover
+{
+     background-color: #3498DB;
+}
+#formy{
+	border-color: 1px solid #11D55B;
+}
+#drop
+{
+	 background-color: #0009;
+    color: black;
+    border: 2px solid #28B463  ;
+    background: rgba(0,0,0,0.0001);
+}
+#drop-menu:hover
+{
+	background: rgba(0,0,0,0.0001);
+}
+#thumb:hover
+{
+	transform: rotateY(180deg);
+}
+
+.navbar li a:hover
+{
+	background-color: #D1F2EB
+}
+#drop1
+{
+	
+	 background: rgba(0,0,0,0.0001);
+	 color: #1980FC;
+}
+#drop1-menu
+{
+	background: rgba(0,0,0,0.0001);
+}
+#seajumbo
+{
+	background: rgba(0,0,0,0.0001);
+	text-align: center;
+}
+#wellmy
+{
+	background: rgba(0,0,0,0.0001);
+	 margin:auto;
+	 padding-right: 50px;
+	 border: 1px solid #283747;
+}
+#thumbi img
+{
+	width: 300px;
+	height: 200px;
+
+}
+#icon{
+	width:120px;
+	position: absolute;
+	overflow: hidden;
+}
+.rightside
+{ margin-left:-38px;
+	position: fixed;
+	top:25%;
+}
+.rightside li {
+	padding:20px;
+	transition: .6s;
+	color: white;
+	position: relative;
+}
+.rightside li i{
+	font-size: 40px;
+
+}
+.rightside li:hover{
+	padding:20px 40px;
+}
+.rightside li:nth-child(1){
+	background: #3b5998;
+}
+.rightside li:nth-child(2){
+	background: #00aced;
+}
+.rightside li:nth-child(3){
+	background: #dd4b39;
+}
+.rightside li:nth-child(4){
+	background: #007bb6;
+}
+#emailicon i{
+
+margin-bottom:20px;
+}
+#li{	
+	color: white;
+}
+#caroh1{
+	margin-bottom: 5%;
+	text-align: center;
+	color: #76D7C4;
+	text-shadow: 1px 1px #FDFEFE   ,2px 2px #FDFEFE ,3px 3px #FDFEFE ;
+	font-size: 80px;
+	font-family: 'Cinzel', serif;
+	}
+#carop{
+	color: #F8F9F9;
+	font-size: 20px;
+}	
+#carocontainer{
+	margin-left: 10%;
+	
+	background-color: #FDFEFE;
+}
+#carocontainerh1{
+	font-family: 'Rakkas', cursive;
+	font-size: 80px;
+	text-align: center;
+}
+#carocontainerp{
+	margin-left: 30px;
+	font-family: 'Noto Serif KR', sans-serif;
+}
+
+#formbft
+{
+	border: 1px 1px solid #FDFEFE  ; padding :30px 40px ;
+}
+#booktxt{
+	color : #FDFEFE;
+}
+#modalheader{
+	padding-left: 40%;
+	background-color: #F7DC6F;
+}
+#wellfont{
+	font-family: 'Cardo', serif;
+}
+#journeyfont{
+	font-family: 'Cardo', serif;
+}

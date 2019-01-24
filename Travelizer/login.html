@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title> Login Form</title>
+</head>
+<style>
+	body{
+		background-image: url(images/caro1.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
+	}
+</style>
+<link rel="stylesheet" type="text/css" href="custom.css">
+<body>
+<div class="well well-lg"><h1><u>Login</u></h1></div>
+<style type="text/css">
+	.well-lg{
+		margin-top: 20px;
+		margin-bottom: 10px;
+		padding-bottom: 5px;
+		text-align: center;
+		background-color: #ECF0F1;
+		text-shadow: 1px 1px #17202A, 2px 2px #17202A;
+		color: #48C9B0;
+	}
+
+</style>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12"></div>
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <form class="formb" style="margin-top: 50px" method="POST" action="login.php">
+          <img class=" img img-resposive img-circle" src="images/pop1.gif"style="max-width: 100px;margin-left: 80px">
+           <div class="form-group" id="emailicon">
+            <label for="exampleInputEmail1"><b style="color: #FDFEFE" >Email:</b></label>
+            <i class="fa fa-envelope"></i>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+           </div>
+           <div class="form-group">
+           <label for="exampleInputPassword1"><b style="color: #FDFEFE" >Password:</b></label>
+           <i class="fa fa-unlock-alt"></i>
+           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+           </div>
+           <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+            </div>
+            <button type="submit" class="btn btn-success btn-block" name="submit">Submit</button>
+          </form>
+        </form>
+      </div>
+    </div>
+  </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
